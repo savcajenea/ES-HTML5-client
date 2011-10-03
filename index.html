@@ -1,0 +1,57 @@
+<html>
+	<head>
+		<title>Easy Screen</title>
+		<script src="lib/easel.js"></script>
+		<script src="src/com/JQData.js"></script>
+		<script src="src/com/XMLParser.js"></script>
+		<script src="src/com/plugins/jquery-1.6.4.min.js"></script>
+		<script src="src/com/plugins/timeFunc.js"></script>
+		<script src="src/views/SlidersController.js"></script>
+		<script src="src/views/CountDownBar.js"></script>
+		<script src="src/views/Section.js"></script>
+		<script src="src/utilities/Util.js"></script>
+		<script src="src/Controller.js"></script>
+		<script src="src/Memo.js"></script>
+		<link rel="StyleSheet" href="css/Styles.css" type="text/css" />
+	</head>
+	<body onload="init()" onresize="onResize()">
+			
+			<div id="SlidersDiv" class="SlidersDiv"></div>
+			<div id="CountDownDiv" class="CountDownBar"></div>
+			
+			<script>
+				var controller;
+				
+				function init() {
+					Memo.updateSizeValues();
+					controller = new Controller();
+					
+				
+				/*
+					var vG = new VGroup('body', 'VGroup')
+					
+					var div1 = $("<div/>");
+						div1.addClass("div1");
+						div1.html("div1 hello dibesiar, how are you today");
+					var div2 = $("<div/>");
+						div2.addClass("div1");
+						div2.html("div2 what fuck, huh");
+						
+						vG.addElement(div1);
+						vG.addElement(div2);
+						
+						console.log(vG.div.metadata().color)
+				*/
+				}
+
+				function onResize() {
+					Memo.updateSizeValues();
+					controller.resize();
+				}
+
+				function tick() {
+					controller.ENTER_FRAME();
+				}
+			</script>
+	</body>
+</html>

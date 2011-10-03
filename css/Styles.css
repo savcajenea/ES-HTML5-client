@@ -1,0 +1,28 @@
+.SlidersDiv {
+	width: 100%;
+	height: 99%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	padding: 0px;
+}
+
+.CountDownBar {
+	color: #9f0c0c;
+	width: 100%;
+	height: 10px;
+	background: -moz-linear-gradient(center top , rgb(-235, 122, 23), #ccccff, #00cc00);
+	position:fixed;
+	bottom: 0px;
+	left: 0px;
+	padding-top: 0px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-topright: 5px;
+}
+
+.Section{
+	margin: 10px;
+}
