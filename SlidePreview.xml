@@ -1,46 +1,44 @@
 <root>
-	<EasySite>
-                <proxyUrl>http://easyting.dk/easyscreen/proxy?file_url=</proxyUrl>
-                <module>http://easyting.dk/profiles/ding2/modules/ding_easyscreen_d7/easyscreen_core/swf/EasySite_mod.swf</module>
+  <EasySite>
+    <proxyUrl>http://local.easyting:8000/easyscreen/proxy?file_url=</proxyUrl>
+    <module>http://local.easyting:8000/profiles/ding2/modules/ding_easyscreen_d7/easyscreen_core/swf/EasySite_mod.swf</module>
+    <hash>123</hash>
+    <updateInterval>60</updateInterval>
+    <serviceURL>http://local.easyting:8000/easyscreen/webservice</serviceURL>
+  </EasySite>
 
-                <hash>123</hash>
-                <updateInterval>60</updateInterval>
-                <serviceURL>http://local.easyting:8000/easyscreen/webservice</serviceURL>
+  <messages>
+    <msg_rendering_slides>* Rendering slides...</msg_rendering_slides>
+    <msg_loading>* Loading</msg_loading>
+    <msg_unable_to_load>* Unable to load</msg_unable_to_load>
+    <msg_failed_to_load>* Failed to load PresentationSet</msg_failed_to_load>
+    <msg_load_config_data>* Loading config data...</msg_load_config_data>
+    <msg_invalid_xml>* XML syntax is invalid. There is no root node 'EasyScreenContent'</msg_invalid_xml>
+    <msg_invalid_response>* Invalid response</msg_invalid_response>
+    <msg_loading_error>* Loading error...</msg_loading_error>
+  </messages>
 
-        </EasySite>
+  <CountDownBar>
+      <enabled>true</enabled>
+      <position>bottom</position>
+      <height>16</height>
+      <mainColor>#10a6ed</mainColor>
+      <backColor/>
+      <opacity>1</opacity>
+   </CountDownBar>
 
-	<messages>
-		<msg_rendering_slides>* Rendering slides...</msg_rendering_slides>
-		<msg_loading>* Loading</msg_loading>
-		<msg_unable_to_load>* Unable to load</msg_unable_to_load>
-		<msg_failed_to_load>* Failed to load PresentationSet</msg_failed_to_load>
-		<msg_load_config_data>* Loading config data...</msg_load_config_data>
-		<msg_invalid_xml>* XML syntax is invalid. There is no root node 'EasyScreenContent'</msg_invalid_xml>
-		<msg_invalid_response>* Invalid response</msg_invalid_response>
-		<msg_loading_error>* Loading error...</msg_loading_error>
-	</messages>
-
-	<CountDownBar>
-  		<enabled>true</enabled>
-  		<position>bottom</position>
-  		<height>16</height>
-  		<mainColor>#10a6ed</mainColor>
-  		<backColor/>
-  		<opacity>1</opacity>
- 	</CountDownBar>
-	
-	<resolutions>
-		<resolution width="1920" height="1200"/>
-	    	<resolution width="1680" height="1050"/>
-		<resolution width="1600" height="900"/>
-		<resolution width="1024" height="768"/>
-		<resolution width="1280" height="1024"/>
-		<resolution width="1280" height="800"/>
-		<resolution width="1440" height="900"/>
-		<resolution width="1600" height="900"/>
-		<resolution width="1600" height="1200"/>
-		<resolution width="1920" height="1080"/>
-		<resolution width="1920" height="1200"/>
-	</resolutions>
+  <resolutions>
+    <resolution width="1920" height="1200"/>
+    <resolution width="1680" height="1050"/>
+    <resolution width="1600" height="900"/>
+    <resolution width="1024" height="768"/>
+    <resolution width="1280" height="1024"/>
+    <resolution width="1280" height="800"/>
+    <resolution width="1440" height="900"/>
+    <resolution width="1600" height="900"/>
+    <resolution width="1600" height="1200"/>
+    <resolution width="1920" height="1080"/>
+    <resolution width="1920" height="1200"/>
+  </resolutions>
 
 </root>

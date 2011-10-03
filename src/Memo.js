@@ -6,8 +6,8 @@ Memo = function(){}
 Memo.webCellWH = new Point();
 
 Memo.updateSizeValues = function(div){
-	Memo.webCellWH.x = $(div).width()/3;
-	Memo.webCellWH.y = $(div).height()/6;
+  Memo.webCellWH.x = $(div).width()/3;
+  Memo.webCellWH.y = $(div).height()/6;
 }
 
 /**
