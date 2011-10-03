@@ -19,12 +19,12 @@
   </messages>
 
   <CountDownBar>
-      <enabled>true</enabled>
-      <position>bottom</position>
-      <height>16</height>
-      <mainColor>#10a6ed</mainColor>
-      <backColor/>
-      <opacity>1</opacity>
+    <enabled>true</enabled>
+    <position>bottom</position>
+    <height>16</height>
+    <mainColor>#10a6ed</mainColor>
+    <backColor/>
+    <opacity>1</opacity>
    </CountDownBar>
 
   <resolutions>
